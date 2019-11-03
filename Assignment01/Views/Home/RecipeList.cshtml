@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+@model IEnumerable<Recipe>
+
+
+
+
+    <html>
+    <head>
+        <title>RecipeList</title>
+    </head>
+    <body>
+        <section>
+            <table class="tableRow">
+                <tr>
+                    <th class="tableHead"> Product Name</th>
+                    <th class="tableHead"> Product Id</th>
+                </tr>
+                <tbody>
+                    @foreach (var s in Model)
+                {
+                    <tr>
+                        <td class="tableCol">
+                            @Html.ActionLink(s.Name, "ViewRecipe", new { Id = s.Id })
+                        </td>
+                        <td class="tableCol">
+                            @s.Id
+                        </td>
+                        <td>
+
+                        </td>
+                    </tr>
+
+                }
+                    <tr>
+                        <td colspan="2"><a asp-action="AddRecipe">Add New Recipe</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        @section footer{
+            <footer>&copy;&nbsp;COMP229&nbsp;-&nbsp;Ting Li&nbsp;(301025864)</footer>
+        }
+    </body>
+</html>

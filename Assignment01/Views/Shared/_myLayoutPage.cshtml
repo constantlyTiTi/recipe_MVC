@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link rel="stylesheet" href="~/CSS/StyleSheet.css" type="text/css" />
+    <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.css" type="text/css" />
+
+</head>
+<body>
+    <div class="upperBrandClass">
+        <span class="logSpanClass">
+            <img class="backGroundPicClass" src="~/Image/FoodBackground.jpg" />
+        </span>
+        <span class="leftSpanTextClass">
+            A Pizza for you
+        </span>
+    </div>
+    <section>
+        <div class="lowerNavClass">
+            <div class="leftNavClass leftNavLeft">
+                <span class="leftSpanClass">@Html.ActionLink("Home", "Index") </span>
+                <span class="leftSpanClass">@Html.ActionLink("View Recipe List", "RecipeList")</span>
+                <span class="leftSpanClass">@Html.ActionLink("Add New Recipe", "AddRecipe")</span>
+            </div>
+            <div class="midNavClass MidNavRight">
+                @RenderBody()
+
+            </div>
+
+        </div>
+    </section>
+    @RenderSection("footer",true)
+</body>
+</html>

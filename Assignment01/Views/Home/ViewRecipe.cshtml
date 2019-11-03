@@ -1,0 +1,58 @@
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+
+@model Recipe
+
+<!DOCTYPE HTML>
+
+<html>
+<head>
+    <title>ViewRecipe</title>
+</head>
+
+<body>
+    @if (Model.Image != null)
+    {
+    <div class="viewRight"> <img src="@Model.Image" alt="pizza img" /></div>
+    }
+    <div class="viewLeft">
+        <table>
+            <tr>
+                <td>Product Name</td>
+                <td> @Model.Name</td>
+            </tr>
+            <tbody>
+                <tr>
+                    <td>Product ID:</td>
+                    <td> @Model.Id</td>
+                </tr>
+                <tr>
+                    <td>Ingredient:</td>
+                    <td> @Model.Ingredient</td>
+                </tr>
+                <tr>
+                    <td>Process:</td>
+                    <td>
+                        @Model.Process
+                     </td>
+                </tr>
+                <tr>
+                    <td>Latest Review:</td>
+                    <td>@Model.Review</td>
+                </tr>
+                <tr>
+                    <td colspan="2">@Html.ActionLink("Review the recipe", "ReviewRecipe", new { id = Model.Id })</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    @*<a asp-action="RecipeList">Go Back to Recipe List</a>*@
+    @section footer{
+        <footer>&copy;&nbsp;COMP229&nbsp;-&nbsp;Ting Li&nbsp;(301025864)</footer>
+    }
+</body>
+
+
+</html>

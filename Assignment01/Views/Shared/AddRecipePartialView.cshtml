@@ -1,0 +1,38 @@
+﻿@model Recipe
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+<form asp-action="AddRecipe" method="Post">
+
+    <div>
+        <label asp-for="Name">Enter the new recipe name: </label>
+        <input asp-for="Name" />
+    </div>
+    <div>
+        <label asp-for="Process">Enter the new recipe Process: </label>
+        <input asp-for="Process" />
+    </div>
+    <div>
+        <label asp-for="Ingredient">Enter the new recipe Ingredient: </label>
+        <input asp-for="Ingredient" />
+    </div>
+    <div>
+        <label asp-for="Id">Enter the new Id: </label>
+        <input asp-for="Id" />
+    </div>
+    @*<div>
+            <label asp-for="Image">Enter the new Image: </label>
+            <input asp-for="Image" />
+        </div>*@
+    <div class="text-center">
+        <button type="submit">
+            Save
+        </button>
+        <button type="button" onclick="window.location.href='@Url.Action("Index")'">
+            Cancel
+        </button>
+    </div>
+</form>
+
+@Html.ActionLink("Click to review the updated list", "RecipeList")

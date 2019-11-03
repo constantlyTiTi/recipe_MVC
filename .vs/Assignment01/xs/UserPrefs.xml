@@ -1,0 +1,24 @@
+﻿<Properties StartupConfiguration="{2FF24DBA-0F55-4D99-BB33-8C50CA03EB7B}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assignment01/Controllers/HomeController.cs">
+    <Files>
+      <File FileName="Assignment01/libman.json" Line="1" Column="1" />
+      <File FileName="Assignment01/Startup.cs" Line="17" Column="57" />
+      <File FileName="Assignment01/Controllers/HomeController.cs" Line="40" Column="10" />
+      <File FileName="Assignment01/Models/IRepository.cs" Line="6" Column="33" />
+      <File FileName="Assignment01/Models/Repository.cs" Line="16" Column="36" />
+      <File FileName="Assignment01/Views/Shared/AddRecipePartialView.cshtml" Line="14" Column="36" />
+      <File FileName="Assignment01/Views/_ViewImports.cshtml" Line="1" Column="1" />
+      <File FileName="Assignment01/Views/Home/AddRecipe.cshtml" Line="15" Column="20" />
+      <File FileName="Assignment01/Views/Home/Index.cshtml" Line="1" Column="1" />
+      <File FileName="Assignment01/Models/Recipe.cs" Line="1" Column="1" />
+      <File FileName="301025864Assignment01 Status" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Assignment01 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+</Properties>

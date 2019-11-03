@@ -1,0 +1,24 @@
+@model Recipe
+
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+    <title>AddRecipe</title>
+</head>
+
+<body>
+    <section name>
+        <div>
+
+            @await Html.PartialAsync("AddRecipePartialView")
+
+        </div>
+    </section>
+    @section footer{
+        <footer>&copy;&nbsp;COMP229&nbsp;-&nbsp;Ting Li&nbsp;(301025864)</footer>
+    }
+</body>
+
+</html>

@@ -1,0 +1,35 @@
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+@model Recipe
+
+<!DOCTYPE HTML>
+
+<html>
+<head>
+    <title> Review Recipe</title>
+</head>
+<body>
+    <section>
+        <h3>
+            Review @Model.Name recipe
+        </h3>
+        <form asp-controller="Home" asp-action="ReviewRecipe" method="post">
+
+
+            <label asp-for="Review">Review: </label>
+            <input asp-for="@Model.Review" />
+
+            <button type="submit">
+                submit
+            </button>
+            <div>Review: @Model.Review</div>
+            <div> @Html.ActionLink("Submit the review", "ReviewRecipe", Model)</div>
+        </form>
+    </section>
+    @section footer{
+        <footer>&copy;&nbsp;COMP229&nbsp;-&nbsp;Ting Li&nbsp;(301025864)</footer>
+    }
+</body>
+</html>

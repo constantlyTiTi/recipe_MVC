@@ -1,0 +1,148 @@
+body {
+    font-family: Verdana;
+    background-color: ghostwhite;
+    background-image: url("/Image/bodybackground.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.backGroundPicClass {
+    max-width: 100%;
+    height: auto;
+}
+
+.upperBrandClass {
+    height: 230px;
+    width: 1100px;
+}
+
+.logSpanClass {
+    display: inline-block;
+    position: relative;
+    height: 230px;
+    width: 400px;
+    padding-left: 20px;
+}
+
+.leftSpanTextClass {
+    display: inline-block;
+    padding-top: 80px;
+    font-size: 2.4em;
+    font-family: Calibri;
+    position: absolute;
+    height: 170px;
+    width: 380px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.lowerNavClass {
+    height: 780px;
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.leftNavClass {
+    color: blue;
+    height: 691px;
+    width: 220px;
+    background-color: ghostwhite;
+    display: inline-block;
+}
+
+.midNavClass {
+    height: 680px;
+    width: 980px;
+    /*position: absolute ;*/
+    display: inline-block;
+    background-color: white;
+    background-image: url("/Image/pizzaEveryPage.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-y: bottom;
+    padding-top: 10px;
+}
+
+.leftSpanClass {
+    padding-top: 20px;
+    padding-left: 10px;
+    height: 50px;
+    width: 200px;
+    background-color: ghostwhite;
+    display: block;
+    /*font-size: 1.4em;*/
+}
+
+    .leftSpanClass:hover {
+        background-color: lightgray;
+    }
+
+
+.leftNavLeft {
+    position: relative;
+}
+
+.MidNavRight {
+    position: absolute;
+}
+
+.text-center {
+    color: blue;
+}
+
+/*table {
+    table-layout:auto;
+    width: 80%;
+}
+
+tr {
+    text-align: left;
+    border: 1px;
+    background-color: papayawhip;
+}
+
+th {
+    font-size: 1.4em;
+    font-weight: normal;
+    height: 50px;
+}
+
+td {
+    height: 50px;
+    font-size: 1.2em;
+    border: 1px white dashed;
+}*/
+
+.viewRight {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    display: inline-block;
+}
+
+.viewLeft {
+    width: 800px;
+    height: 380px;
+    position: absolute;
+    display: inline-block;
+}
+
+footer {
+    height: 40px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    bottom:0;
+}
+
+.backGroundPicClass {
+    opacity: 0.8;
+}
+
+.IndexPadding {
+    padding-left: 20px;
+}

@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <DockerComposeProjectPath>../docker-compose.dcproj</DockerComposeProjectPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Views\" />
+    <Folder Include="wwwroot\CSS\" />
+    <Folder Include="wwwroot\Image\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
+    <PackageReference Include="bootstrap" Version="4.3.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="bower.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Web References\www.w3schools.com\Reference.cs" />
+  </ItemGroup>
+</Project>

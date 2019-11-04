@@ -51,7 +51,7 @@ using Assignment01.Models;
             WriteLiteral("\r\n\r\n<!DOCTYPE HTML>\r\n\r\n<html>\r\n\r\n");
             EndContext();
             BeginContext(154, 114, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "42b30c083e31430fbb86561884fa9ff9", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "863f834e1e3541d98d368c592f72e786", async() => {
                 BeginContext(160, 101, true);
                 WriteLiteral("\r\n    <meta name=\"viewport\" content=\"width=device-width\" />\r\n    <title> Home Page Recipe</title>\r\n\r\n");
                 EndContext();
@@ -71,7 +71,7 @@ using Assignment01.Models;
             WriteLiteral("\r\n");
             EndContext();
             BeginContext(270, 450, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b6225933628c4529b8fea975de11c120", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9290913722344c91835b43eed9615af6", async() => {
                 BeginContext(276, 263, true);
                 WriteLiteral(@"
     <div class=""IndexPadding"">
@@ -85,7 +85,7 @@ using Assignment01.Models;
         ");
                 EndContext();
                 BeginContext(539, 44, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e2d4e874c8944391965201210e7fcd73", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0921c287b8114cc4b435f132fb1dc649", async() => {
                     BeginContext(566, 13, true);
                     WriteLiteral("Go RecipeList");
                     EndContext();

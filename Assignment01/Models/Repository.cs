@@ -29,7 +29,7 @@ namespace Assignment01.Models
                               " 2 teaspoons salt,\n"+
                               " 2 teaspoon sugar.",
                     Ingredient ="Firm mozzarella cheese,Tomato source,Mushrooms,Bell peppers,",
-                    Id=1,
+                    //Id=1,
                     Image="/Image/Veggie pizza.jpg"
                 },
         new Recipe
@@ -48,7 +48,7 @@ namespace Assignment01.Models
                                  " 1 can (15 ounces) tomato sauce, "+
                                  " 1/2 cup shredded part-skim mozzarella cheese, divided, "+
                                  " 2 tablespoons grated Parmesan cheese, divided",
-                    Id=2,
+                    //Id=2,
                     Image ="/Image/Hawaiian.jpg"
                 },
             new Recipe
@@ -60,7 +60,7 @@ namespace Assignment01.Models
                                 " 1 tablespoons extra virgin olive oil (omit if cooking pizza in a wood-fired pizza oven),"+
                                 " 2 teaspoons salt,"+
                                 " 2 teaspoon sugar.",
-                    Id=3,
+                    //Id=3,
                     Image ="/Image/Pepperoni.jpg"
                 }
         };

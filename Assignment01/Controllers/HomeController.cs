@@ -30,7 +30,8 @@ namespace Assignment01.Controllers
         [HttpGet]
         public ViewResult AddRecipe()
         {
-            return View();
+            repository.RecipeList.Count();
+           return View();
         }
         [HttpPost]
         public ViewResult AddRecipe(Recipe newRecipe)
